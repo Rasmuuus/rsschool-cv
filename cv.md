@@ -3,9 +3,8 @@
 * Moscow
 * +447440334906
 * [Telegram](https://web.telegram.org)
-## A little bit about me
-
-I'm 31 years old, and I'm a simple hard worker who wants to learn something new in order to change my profession and my future. I am a kind and reliable guy who can work well in a team.
+## A little bit about me ##
+I'm a 31 years old simple hard worker, who wants to learn something new in order to change my profession and my future. I'm a kind and reliable guy who can work well in a team.
 ## Skills ##
 * HTML
 * CSS
