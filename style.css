@@ -3,12 +3,6 @@
     src: url("assets/fonts/Roboto-Regular.ttf");
 }
 
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-}
-
 * {
     box-sizing: border-box;
 }
@@ -21,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:#E0FFFF;
+    background-color: #F5FFFA;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -29,10 +23,8 @@ body {
 
 body {
     font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
-    color: #000000;
 }
 
 .container {
@@ -45,8 +37,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    background-color: aquamarine;
-    height: 15vh;
+    background-color: #AFEEEE;
+    height: 10vh;
     margin: 0;
 }
 
@@ -72,9 +64,10 @@ body {
     width: 50%;
 }
 
-.section-avatar,
-.section-name {
-    width: 50%;
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
 
 .section-name {
@@ -82,9 +75,8 @@ body {
 }
 
 .section-title {
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -103,13 +95,21 @@ body {
 .avatar {
     width: 300px;
     border-radius: 50%;
+    border: 1px solid #000000;
+    margin-left: 50px;
+}
+
+#profile {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #AFEEEE;
     height: 10vh;
     padding-left: 20px;
     padding-right: 20px;
